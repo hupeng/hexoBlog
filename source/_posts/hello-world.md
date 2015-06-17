@@ -35,3 +35,24 @@ $ hexo deploy
 ```
 
 More info: [Deployment](http://hexo.io/docs/deployment.html)
+
+<script>
+  function calcWidth(){
+    var screenWidth = screen.width,
+        screenAvailWidth = screen.availWidth,
+        outerWidth = window.outerWidth,
+        innerWidth = window.innerWidth,
+        clientWidth = document.body.clientWidth,
+        scrollWidth = document.body.scrollWidth;
+
+    var msg = 'screenWidth: ' + screenWidth + '    ' + 
+              'screenAvailWidth: ' + screenAvailWidth + '    ' +
+              'outerWidth: ' + outerWidth + '    ' + 
+              'innerWidth: ' + innerWidth + '    ' +
+              'clientWidth: ' + clientWidth + '    ' +
+              'scrollWidth: ' + scrollWidth;
+    alert(msg);
+  }
+
+  calcWidth();
+</script>
