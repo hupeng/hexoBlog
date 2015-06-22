@@ -15,7 +15,7 @@ twitter:
   tweet_count: 5
 
 addthis:
-  enable: true
+  enable: false
   pubid:
   facebook: true
   twitter: true
@@ -25,7 +25,7 @@ addthis:
 fancybox: true
 
 google_analytics:
-rss:
+rss: /atom.xml
 
 comment_provider: facebook
 # Facebook comment

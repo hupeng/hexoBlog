@@ -4,10 +4,29 @@ icon-gap = 25px
 article
   box-shadow 1px 2px 3px #ddd
   background #fff
+  position relative
   &.page
     padding-left 20px
     .icon
       display none
+  &:before, &:after
+    position absolute
+    width 35%
+    height 10px
+    content ' '
+    left 12px
+    bottom 23px
+    background rgba(0, 0, 0, 0)
+    -webkit-transform skew(-9deg) rotate(-4deg)
+    transform skew(-5deg) rotate(-4deg)
+    -webkit-box-shadow 6px 18px 12px rgba(0, 0, 0, 0.6)
+    box-shadow 6px 18px 12px rgba(0, 0, 0, 0.4)
+    z-index -1
+  &:after
+    left auto
+    right 23px
+    -webkit-transform skew(9deg) rotate(4deg)
+    transform skew(5deg) rotate(3deg)
 
   &.post
     .icon
