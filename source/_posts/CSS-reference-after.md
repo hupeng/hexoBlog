@@ -22,7 +22,7 @@ Let's <a href="http://movethewebforward.org/" class="external">Move The Web Forw
 
 下面的代码片段会在链接的后面加上图标，这个图标会作为行内元素插入到链接内容的后面。 
 
-```CSS
+```css
 .external::after {
     content: url(external-link.png);
     padding-left: 5px; /* 在图片和前面文字之间添加一点空间 */
@@ -45,7 +45,7 @@ Let's <a href="http://movethewebforward.org/" class="external">Move The Web Forw
 
 伪元素能够用于插入几乎所有种类的的内容，包括符号（如上），字符串和图片。例如，下面全部都是带有正确内容的合法`::after`申明：
 
-```
+```css
 .element::after {
     content: url(path/to/image.png); /* 图片，例如，图标 */
 }
@@ -65,7 +65,7 @@ Let's <a href="http://movethewebforward.org/" class="external">Move The Web Forw
 
 伪元素能够被添加样式的能力，好像他们是页面上真正的元素一样，导致使用他们大部分是出于“装饰”的目的。在CSS中，伪元素被大量使用在创建[几何图形](http://www.samuelrossille.com/css-shape/)，相对于其他别的用法。下面的一个例子就会展示这样一个用例。通过使用一个元素和它的伪元素，可以创建一个八角星。开始的四个角是用元素自身创建的，做成一个矩形。然后，这个元素的伪元素被设置为和父节点同样的高度和宽度，并绝对定位在父元素的上面，然后旋转45°，组成一个八角星。
 
-```
+```css
 /* 
     为了更好的显示例子中元素和伪元素的位置关系，他们都被设置成了半透明，用 `opacity`属性。
     移除opacity属性值，你能够看到一个完全不透明的八角星。
@@ -105,7 +105,7 @@ Let's <a href="http://movethewebforward.org/" class="external">Move The Web Forw
 
 在CSS1和CSS2中，定义伪元素以一个冒号（:）开始，就像伪类一样（例如`:hover`）。在CSS3中，为了和伪类区分，引入两个冒号（::）来定义伪元素。 
 
-```
+```css
 /* old CSS2 syntax */
 .element:after {
     /* content and styles here */
@@ -140,7 +140,7 @@ Let's <a href="http://movethewebforward.org/" class="external">Move The Web Forw
  
 对`::after`伪元素来说，一个非常有用的使用场景就是在打印样式表中。因为链接是不能在纸上点击的（当然咯），你通常都应该把链接指向的URL附带在链接的后面，以便读者可以在需要的时刻访问他们。下面的例子就是这么做的： 
 
-```
+```css
 @media print {
     a[href]::after {
         content: " (" attr(href) ")";
