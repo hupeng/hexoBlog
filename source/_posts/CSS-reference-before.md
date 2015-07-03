@@ -8,7 +8,7 @@ tags: CSS
 >  原文地址：[http://tympanus.net/codrops/css_reference/before/](http://tympanus.net/codrops/css_reference/before/)
 
 
-###**`::before`可以用来生成一个具有内容的元素，它是所匹配的元素中抽象上的第一个子元素，能够被设定样式**
+###`::before`可以用来生成一个具有内容的元素，它是所匹配的元素中抽象上的第一个子元素，能够被设定样式
 
 通过`::before`插入的内容会被附加到匹配元素内部所有内容的前面，并且默认以行内元素来显示。插入的内容通过`content`来指定。
 
@@ -121,9 +121,9 @@ p.note::before {
 
 <iframe src="http://tympanus.net/codrops-playground/SaraSoueidan/kFTn9yJk/embed/result,html,css/" width="100%" height="480px"></iframe> 
 
-这个例子也可以使用`::after`伪元素来制作。
+这个例子也可以使用[::after](http://lesrecord.com/2015/07/02/CSS-reference-after/)伪元素来制作。
 
-###**备注**
+###备注
 
 ####`(:)`和`(::)`的不同 
 
@@ -192,7 +192,7 @@ Internet Explorer不支持对伪元素使用`z-index`。
 
 * content
 * ::selection
-* ::after
+* [::after](http://lesrecord.com/2015/07/02/CSS-reference-after/)
 * ::placeholder
 * ::first-letter
 * ::first-line
