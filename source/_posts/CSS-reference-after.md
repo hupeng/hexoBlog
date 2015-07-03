@@ -95,7 +95,7 @@ Let's <a href="http://movethewebforward.org/" class="external">Move The Web Forw
 
 <iframe src="http://tympanus.net/codrops-playground/SaraSoueidan/kFTn9yJk/embed/result,html,css/" width="100%" height="480px"></iframe> 
 
-这个例子也可以使用`::before`伪元素来制作。
+这个例子也可以使用[::before](http://lesrecord.com/2015/07/03/CSS-reference-before/)伪元素来制作。
 
 ##备注
 
@@ -193,7 +193,7 @@ Internet Explorer不支持对伪元素使用`z-index`。
 
 * content
 * ::selection
-* ::before
+* [::before](http://lesrecord.com/2015/07/03/CSS-reference-before/)
 * ::placeholder
 * ::first-letter
 * ::first-line
