@@ -8,7 +8,7 @@ tags: CSS
 原文地址：[http://tympanus.net/codrops/css_reference/after/](http://tympanus.net/codrops/css_reference/after/)
 {% endblockquote %}
 
-##`::after`可以用来生成一个具有内容的元素，它是所匹配的元素中抽象上的最后一个子元素，能够被设定样式 
+###`::after`可以用来生成一个具有内容的元素，它是所匹配的元素中抽象上的最后一个子元素，能够被设定样式 
 
 通过`::after`插入的内容通常会被放置到匹配元素内部其他内容的后面，并且以行内元素来显示。插入的实际内容通过`content`属性来指定。 
 
@@ -97,7 +97,7 @@ Let's <a href="http://movethewebforward.org/" class="external">Move The Web Forw
 
 这个例子也可以使用[::before](http://lesrecord.com/2015/07/03/CSS-reference-before/)伪元素来制作。
 
-##备注
+###备注
 
 ####`(:)`和`(::)`的不同 
 
@@ -129,7 +129,7 @@ Let's <a href="http://movethewebforward.org/" class="external">Move The Web Forw
 
 同时，由于使用伪元素加入的内容并没有插入到DOM中，那意味着你不能使用JavaScript为其附加事件处理。 
 
-##案例
+###案例
 
 伪元素，包括`::after`，可以用来做很多事情，创建很多效果。除了上面的例子之外，下面的文章包含一些伪元素的用例，推荐细细品读一番。 
 
@@ -163,7 +163,7 @@ Let's <a href="http://movethewebforward.org/" class="external">Move The Web Forw
 
  <iframe src="http://tympanus.net/codrops-playground/SaraSoueidan/AuXAZ3c8/embed/result,html,css/" width="100%" height="300px"></iframe>  
 
-##在线演示 
+###在线演示 
 
 下面例子使用`::after`在那些鼠标悬停张开一个子菜单的菜单项中增加一个箭头符号，通过转义相应的unicode值，箭头被添加在`content`属性中。这是经由CSS表示和添加象形符号的一种普遍方式。
 
@@ -171,7 +171,7 @@ Let's <a href="http://movethewebforward.org/" class="external">Move The Web Forw
  
 当悬停在菜单项之上时候，向下指向的箭头会被向上指向的箭头所取代，通过改变`content`属性值的方式。能够这样做的原因是应为伪元素和伪类都可以链式调用，像这样`li:hover::after`，当悬停时候，选择添加在菜单项上的`::after`伪元素。 
 
-##浏览器兼容性
+###浏览器兼容性
 
 支持一个冒号表示法`:after`的有：Chrome, Safari, Opera, Internet Explorer 8+, 以及Android和iOS。
 
@@ -179,17 +179,17 @@ Let's <a href="http://movethewebforward.org/" class="external">Move The Web Forw
 
 Chrome 26+, Firefox 4+, Safari 6.1+, Opera( post Blink )和Internet Explorer 10+支持为伪元素添加动画效果。 
 
-##注意 
+###注意 
 
 Internet Explorer不支持对伪元素使用`z-index`。
 
-##深度阅读 
+###深度阅读 
 
 * [CSS生成的内容，自动编号和列表](http://www.w3.org/TR/CSS2/generate.html#before-after-content) 
 * [第三层级CSS选择器](http://dev.w3.org/csswg/selectors3/#gen-content) 
 * [学习使用CSS中:before和:after伪元素](http://coding.smashingmagazine.com/2011/07/13/learning-to-use-the-before-and-after-pseudo-elements-in-css/) 
 
-##相关文章
+###相关文章
 
 * content
 * ::selection
