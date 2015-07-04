@@ -194,7 +194,7 @@ Internet Explorer不支持对伪元素使用`z-index`。
 * ::selection
 * [::after](http://lesrecord.com/2015/07/02/CSS-reference-after/)
 * ::placeholder
-* ::first-letter
+* [::first-letter](http://lesrecord.com/2015/07/04/CSS-reference-first-letter/)
 * ::first-line
 * attr()
 
