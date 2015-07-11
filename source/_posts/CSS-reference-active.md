@@ -1,4 +1,4 @@
-title: CSS reference—— :active
+title: :active | CSS reference
 date: 2015-07-09 15:56:21
 description: CSS参考 :active
 tags: CSS

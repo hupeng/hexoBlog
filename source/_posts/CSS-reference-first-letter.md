@@ -1,4 +1,4 @@
-title: CSS reference—— ::first-letter
+title: ::first-letter | CSS reference
 date: 2015-07-04 15:26:09
 description: CSS参考 ::first-letter
 tags: CSS

@@ -1,4 +1,4 @@
-title: CSS reference—— ::placeholder
+title: ::placeholder | CSS reference
 date: 2015-07-07 20:43:34
 description: CSS参考 ::placeholder
 tags: CSS

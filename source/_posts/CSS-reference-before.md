@@ -1,4 +1,4 @@
-title: CSS reference—— ::before
+title: ::before | CSS reference
 date: 2015-07-03 10:17:46
 description: CSS参考 ::before
 tags: CSS

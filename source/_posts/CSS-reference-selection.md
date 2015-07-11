@@ -1,4 +1,4 @@
-title: CSS reference—— ::selection
+title: ::selection | CSS reference
 date: 2015-07-08 15:43:31
 description: CSS参考 ::selection
 tags: CSS

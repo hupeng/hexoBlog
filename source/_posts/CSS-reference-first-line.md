@@ -1,4 +1,4 @@
-title: CSS reference—— ::first-line
+title: ::first-line | CSS reference
 date: 2015-07-06 17:09:38
 description: CSS参考 ::first-line
 tags: CSS

@@ -1,4 +1,4 @@
-title: CSS reference—— ::after
+title: ::after | CSS reference
 date: 2015-07-02 14:32:22
 description: CSS参考 ::after
 tags: CSS
